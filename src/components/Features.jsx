@@ -76,8 +76,8 @@ function FeatureCard({ feature }) {
             flexShrink: 0,
           }}
         >
-          {/* Tag */}
-          <span
+          {/* Tag — hidden for preview */}
+          {/* <span
             style={{
               fontFamily: '-apple-system, SF Pro Text, Helvetica Neue, sans-serif',
               fontSize: 18,
@@ -91,8 +91,7 @@ function FeatureCard({ feature }) {
             {feature.tag}
           </span>
 
-          {/* Divider */}
-          <div style={{ height: 2, background: 'rgb(229,229,229)', flexShrink: 0 }} />
+          <div style={{ height: 2, background: 'rgb(229,229,229)', flexShrink: 0 }} /> */}
 
           {/* Headline + optional subtitle */}
           <div
